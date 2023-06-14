@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title> Meu segundo sitemário</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name-"keywords" content="Gerador de senhas, gerador password">
+    <title>Gerador de senha</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Olá pessoal!</h1>
-    <p>Meu primeiro Paragrafo</p>
-</body>
 
-</html>
+    <img class="logo" src="./assets/images/logo.png" alt="Gerador de senha logo" />
+
+    <main class="container-input">
+        <span>tamanho <span id="valor"></span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
     
+        <button id="button" class="button-cta">Gerar senha</button>
+    </main>
+
+    <div id="container-password" class="container-password-hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="password" class="password">123456789</span>
+        <span>Clique na senha para copiar ✌🏻</span>
+    </div>    
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -15,14 +15,15 @@
 
     <div class="container"> 
         <div class="conteudo">
-            <img class="logo" src="./assets/geradordesenha.png" alt="Gerador de senha logo" />
+            <img class="logo" src="./assets/cadeado.paty.png" alt="Gerador de senha logo" />
 
             <main class="container-input">
-                <span>Tamanho <span id="valor"></span> caracteres</span>
-                <input id="slider" class="slider" type="range" min="5" max="25" value="15" />
+                <span>Tamanho <span id="valor"></span> caracteres</span>               
+                <input style="background-color: black;" id="slider" class="slider" type="range" min="5" max="25" value="15" />
 
 
-                <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
+                <button id="button" class="glow-on-hover" onclick="generatePassword()">Gerar senha</button>
+
             </main>
 
             <div id="container-password" class="container-password hide">
@@ -35,7 +36,7 @@
 
     </div>
 
-    <script src="script.js"></script> -->
+    <script src="script.js"></script> 
 
 </body>
 
